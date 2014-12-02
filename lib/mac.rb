@@ -1,22 +1,23 @@
-class Mac
-	def lovemac(number)
-		(1..50) each do |number|
-			
-			if(number%3==0 && number%15!=0)
-				print ("Love")
-			end
 
-			if(number%5==0 && number%15!=0)
-				print ("Mac")
-			end
+def lovemac(number)
+		
+		if(number%3==0 && number%15!=0)
+			return "Love"
 
-			if(number%15==0)
-				print ("HateWindows")
-			end
-			
-			else 
-				print number
-			end
+		elsif(number%5==0 && number%15!=0)
+			return "Mac"
+
+		elsif(number%15==0)
+			return "HateWindows"
+					
+		else 
+			return number
 		end
-	end
+	
+end
+
+
+# This is given
+(1..50).each do |number|
+	puts lovemac(number)
 end

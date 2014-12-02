@@ -1,8 +1,6 @@
 require 'spec_helper'
 require 'mac'
 
-describe Mac do 
-	
-end
+describe "lovemac" do 
 	
 end
