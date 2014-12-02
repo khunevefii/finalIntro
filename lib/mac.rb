@@ -9,13 +9,12 @@ def lovemac(number)
 
 		elsif(number%15==0)
 			return "HateWindows"
-					
+
 		else 
 			return number
 		end
 	
 end
-
 
 # This is given
 (1..50).each do |number|
